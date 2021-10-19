@@ -1,0 +1,14 @@
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/install/local.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/sdbus-c++.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/install/strip.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/sdbus-c++-objlib.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/install.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/edit_cache.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/list_install_components.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/install/local.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/install.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/install/strip.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/edit_cache.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/list_install_components.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/rebuild_cache.dir

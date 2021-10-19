@@ -1,0 +1,14 @@
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/install.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/list_install_components.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/sdbus-c++-objlib.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/install/strip.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/install/local.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/sdbus-c++.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/rebuild_cache.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/CMakeFiles/edit_cache.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/install/strip.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/install/local.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/edit_cache.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/rebuild_cache.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/list_install_components.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-build/docs/CMakeFiles/install.dir

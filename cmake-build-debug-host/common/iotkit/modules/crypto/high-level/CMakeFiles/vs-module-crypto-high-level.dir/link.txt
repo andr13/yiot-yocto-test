@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-module-crypto-high-level.a CMakeFiles/vs-module-crypto-high-level.dir/src/high-level-crypto.c.o
+/usr/bin/ranlib libvs-module-crypto-high-level.a

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/CMakeFiles/sdbus-depends"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/CMakeFiles/sdbus-depends.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/CMakeFiles/sdbus-depends-complete.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-install.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-mkdir.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-download.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-update.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-patch.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-configure.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdbus-depends"
+		],
+		"name" : "sdbus-depends"
+	}
+}

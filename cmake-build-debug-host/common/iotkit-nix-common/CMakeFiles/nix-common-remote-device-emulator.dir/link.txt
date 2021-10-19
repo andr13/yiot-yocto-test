@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnix-common-remote-device-emulator.a CMakeFiles/nix-common-remote-device-emulator.dir/src/remote-device/remote-device-emulator-data-impl.c.o
+/usr/bin/ranlib libnix-common-remote-device-emulator.a

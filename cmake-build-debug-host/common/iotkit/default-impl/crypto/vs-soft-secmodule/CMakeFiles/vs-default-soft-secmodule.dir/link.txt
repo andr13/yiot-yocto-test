@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-default-soft-secmodule.a CMakeFiles/vs-default-soft-secmodule.dir/src/vs-soft-secmodule.c.o CMakeFiles/vs-default-soft-secmodule.dir/src/soft-secmodule-slots.c.o CMakeFiles/vs-default-soft-secmodule.dir/src/soft-secmodule-sha2.c.o CMakeFiles/vs-default-soft-secmodule.dir/src/soft-secmodule-crypto.c.o CMakeFiles/vs-default-soft-secmodule.dir/src/soft-secmodule-keypair.c.o
+/usr/bin/ranlib libvs-default-soft-secmodule.a

@@ -1,0 +1,11 @@
+prefix=/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed
+exec_prefix=/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed
+libdir=/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed/lib
+includedir=/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed/include
+
+Name: sdbus-c++
+Description: C++ library on top of sd-bus, a systemd D-Bus library
+Requires: libsystemd
+Version: 0.8.2
+Libs: -L${libdir} -lsdbus-c++
+Cflags: -I${includedir}

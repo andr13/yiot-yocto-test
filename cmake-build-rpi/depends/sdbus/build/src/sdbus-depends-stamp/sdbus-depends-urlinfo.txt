@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/Kistler-Group/sdbus-cpp/archive/v0.8.2.tar.gz'
+tag='SHA1=f9b6277c188252839702e615980424a55b3055aa'

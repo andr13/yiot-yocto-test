@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends/src/VTableUtils.c
+VTableUtils.h
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends/src/VTableUtils.h
+systemd/sd-bus.h
+-
+
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/src/sdbus-depends/src/VTableUtils.h
+systemd/sd-bus.h
+-
+stdbool.h
+-
+

@@ -1,0 +1,6 @@
+
+<RCC>
+    <qresource prefix="/ro/wesell/qtkeychain">
+        <file>qmldir</file>
+    </qresource>
+</RCC>

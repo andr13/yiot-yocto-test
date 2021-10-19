@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.DDugRronBx/ext/iotkit/sdk/ext/jsmn/jsmn.c
+jsmn.h
+/tmp/tmp.DDugRronBx/ext/iotkit/sdk/ext/jsmn/jsmn.h
+
+/tmp/tmp.DDugRronBx/ext/iotkit/sdk/ext/jsmn/jsmn.h
+stddef.h
+-
+

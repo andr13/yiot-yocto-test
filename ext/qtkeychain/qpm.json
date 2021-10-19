@@ -1,0 +1,18 @@
+{
+  "name": "ro.wesell.qtkeychain",
+  "author": {
+    "name": "Calugar George",
+    "email": "george@wesell.ro"
+  },
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/CMGeorge/qtkeychain.git"
+  },
+  "version": {
+    "label": "0.0.1"
+  },
+  "dependencies": [
+  ],
+  "license": "MIT",
+  "priFilename": "qt5keychain.pri"
+}

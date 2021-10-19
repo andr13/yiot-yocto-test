@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,libconverters.so -o libconverters.so CMakeFiles/converters.dir/src/signature_converters.c.o CMakeFiles/converters.dir/src/pubkey_converters.c.o  ../../../../../../../../depends/installed/lib/libmbedcrypto.a ../../../../../../../../depends/installed/lib/libed25519.a ../secmodule/libvs-module-secmodule.a ../../logger/libvs-module-logger.a 

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vs-module-secmodule"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\bluez-dbus\;CMake Files\ext\bluez-dbus\cmake\;CMake Files\ext\bluez-dbus\pkgconfig\;CMake Files\ext\yiot-core\;CMake Files\ext\yiot-core\iotkit\;CMake Files\ext\yiot-core\iotkit\sdk\;CMake Files\ext\yiot-core\iotkit\sdk\modules\;CMake Files\ext\yiot-core\iotkit\sdk\modules\crypto\;CMake Files\ext\yiot-core\iotkit\sdk\modules\crypto\converters\;CMake Files\ext\yiot-core\iotkit\sdk\modules\crypto\secmodule\;CMake Files\ext\yiot-core\iotkit\sdk\modules\crypto\high-level\;CMake Files\ext\yiot-core\iotkit\sdk\modules\crypto\session\;CMake Files\ext\yiot-core\iotkit\sdk\modules\logger\;CMake Files\ext\yiot-core\iotkit\sdk\modules\provision\;CMake Files\ext\yiot-core\iotkit\sdk\modules\provision\trust_list\;CMake Files\ext\yiot-core\iotkit\sdk\modules\firmware\;CMake Files\ext\yiot-core\iotkit\sdk\modules\protocols\;CMake Files\ext\yiot-core\iotkit\sdk\modules\protocols\snap\;CMake Files\ext\yiot-core\iotkit\sdk\modules\secbox\;CMake Files\ext\yiot-core\iotkit\sdk\modules\users\;CMake Files\ext\yiot-core\iotkit\sdk\cmake\;CMake Files\ext\yiot-core\iotkit\sdk\helpers\;CMake Files\ext\yiot-core\iotkit\sdk\helpers\status_code\;CMake Files\ext\yiot-core\iotkit\sdk\helpers\macros\;CMake Files\ext\yiot-core\iotkit\sdk\helpers\storage_hal\;CMake Files\ext\yiot-core\iotkit\sdk\helpers\update\;CMake Files\ext\yiot-core\iotkit\sdk\helpers\json\;CMake Files\ext\yiot-core\iotkit\sdk\helpers\base64\;CMake Files\ext\yiot-core\iotkit\sdk\helpers\threadsafe\;CMake Files\ext\yiot-core\iotkit\sdk\ext\;CMake Files\ext\yiot-core\iotkit\sdk\ext\jsmn\;CMake Files\ext\yiot-core\iotkit\sdk\default-impl\;CMake Files\ext\yiot-core\iotkit\sdk\default-impl\crypto\;CMake Files\ext\yiot-core\iotkit\sdk\default-impl\crypto\vs-soft-secmodule\;CMake Files\ext\yiot-core\iotkit\sdk\tests\;CMake Files\ext\yiot-core\yiot\;CMake Files\ext\yiot-core\yiot\common\;CMake Files\ext\yiot-core\yiot\common\protocols\;CMake Files\ext\yiot-core\yiot\common\protocols\snap\;CMake Files\ext\yiot-core\yiot\common\qos1\;CMake Files\ext\yiot-core\ext\;CMake Files\ext\yiot-core\ext\json\;CMake Files\ext\yiot-core\ext\json\cmake\;CMake Files\ext\iotkit\;CMake Files\ext\iotkit\sdk\;CMake Files\ext\iotkit\sdk\cmake\;CMake Files\ext\qtkeychain\;CMake Files\ext\qtkeychain\cmake\;CMake Files\ext\qtkeychain\cmake\Modules\;CMake Files\ext\cmake\;CMake Files\cmake-build-debug-host\;CMake Files\cmake-build-debug-host\depends\;CMake Files\cmake-build-debug-host\depends\installed\;CMake Files\cmake-build-debug-host\depends\installed\lib64\;CMake Files\cmake-build-debug-host\depends\installed\lib64\cmake\;CMake Files\cmake-build-debug-host\depends\installed\lib64\cmake\sdbus-c++\;CMake Files\cmake-build-debug-host\depends\installed\lib\;CMake Files\cmake-build-debug-host\depends\installed\lib\cmake\;CMake Files\cmake-build-debug-host\depends\installed\lib\cmake\MbedTLS\;CMake Files\controll-app\;CMake Files\controll-app\cmake\;CMake Files\controll-app\cmake\iotkit-qt\;CMake Files\controll-app\src\;CMake Files\controll-app\extensions\;CMake Files\controll-app\extensions\devices\;CMake Files\controll-app\extensions\devices\rpi\;CMake Files\controll-app\extensions\devices\router\;CMake Files\controll-app\extensions\devices\emulator-lamp\;CMake Files\controll-app\extensions\devices\emulator-doorlock\;CMake Files\controll-app\extensions\integrations\;CMake Files\controll-app\extensions\integrations\websocket\;CMake Files\controll-app\extensions\plugins\;CMake Files\controll-app\extensions\plugins\rpi-vpn\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\soft\;CMake Files\..\..\..\soft\Qt5\;CMake Files\..\..\..\soft\Qt5\5.15.1\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Concurrent\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Bluetooth\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5DBus\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Test\;CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5WebSockets\;CMake Files\cmake\;CMake Files\device-app\;CMake Files\device-app\main\;CMake Files\device-app\main\linux\;CMake Files\device-app\main\emulator\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vs-module-secmodule">
+				<Option output="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/libvs-module-secmodule.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVIRGIL_IOT_MCU_BUILD=0"/>
+					<Add directory="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/include"/>
+					<Add directory="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc"/>
+					<Add directory="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/macros/include"/>
+					<Add directory="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/logger/include"/>
+					<Add directory="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/status_code/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 vs-module-secmodule"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vs-module-secmodule/fast">
+				<Option output="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/libvs-module-secmodule.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVIRGIL_IOT_MCU_BUILD=0"/>
+					<Add directory="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/include"/>
+					<Add directory="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc"/>
+					<Add directory="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/macros/include"/>
+					<Add directory="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/logger/include"/>
+					<Add directory="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/status_code/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 vs-module-secmodule/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vs-module-secmodule_clangformat">
+				<Option working_dir="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 vs-module-secmodule_clangformat"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/roman/Work/yiot/YIoT/cmake-build-debug-host/ext/yiot-core/yiot/common/iotkit/modules/crypto/secmodule/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/macros/include/virgil/iot/macros/macros.h">
+			<Option target="vs-module-secmodule"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/status_code/include/virgil/iot/status_code/status_code.h">
+			<Option target="vs-module-secmodule"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/include/private/asn1-cryptogram.h">
+			<Option target="vs-module-secmodule"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/include/virgil/iot/secmodule/devices/secmodule-soft.h">
+			<Option target="vs-module-secmodule"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/include/virgil/iot/secmodule/secmodule-helpers.h">
+			<Option target="vs-module-secmodule"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/include/virgil/iot/secmodule/secmodule.h">
+			<Option target="vs-module-secmodule"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/src/asn1-cryptogram.c">
+			<Option target="vs-module-secmodule"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/src/secmodule-ecies.c">
+			<Option target="vs-module-secmodule"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/src/secmodule-helpers.c">
+			<Option target="vs-module-secmodule"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/bluez-dbus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\bluez-dbus\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/bluez-dbus/cmake/bluez-dbus-cpp-config.cmake.in">
+			<Option virtualFolder="CMake Files\ext\bluez-dbus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/bluez-dbus/pkgconfig/bluez-dbus-cpp.pc.in">
+			<Option virtualFolder="CMake Files\ext\bluez-dbus\pkgconfig\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\crypto\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/converters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\crypto\converters\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\crypto\secmodule\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/high-level/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\crypto\high-level\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/session/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\crypto\session\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/logger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\logger\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/provision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\provision\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/provision/trust_list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\provision\trust_list\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/firmware/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\firmware\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/protocols/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\protocols\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/protocols/snap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\protocols\snap\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/secbox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\secbox\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/users/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\modules\users\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/cmake/TransitiveArgs.cmake">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/cmake/TransitiveToolchainArgs.cmake">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/cmake/clangformat.cmake">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/cmake/helpers.cmake">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/cmake/virgil_depends.cmake">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\helpers\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/status_code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\helpers\status_code\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/macros/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\helpers\macros\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/storage_hal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\helpers\storage_hal\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/update/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\helpers\update\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\helpers\json\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/base64/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\helpers\base64\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/threadsafe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\helpers\threadsafe\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/ext/jsmn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\ext\jsmn\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/default-impl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\default-impl\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/default-impl/crypto/vs-soft-secmodule/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\default-impl\crypto\vs-soft-secmodule\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\iotkit\sdk\tests\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/yiot/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\yiot\common\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/yiot/common/protocols/snap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\yiot\common\protocols\snap\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/yiot/common/qos1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\yiot\common\qos1\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/ext/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\yiot-core\ext\json\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/ext/json/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\ext\yiot-core\ext\json\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/ext/json/cmake/nlohmann_jsonConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\ext\yiot-core\ext\json\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/yiot-core/ext/json/cmake/pkg-config.pc.in">
+			<Option virtualFolder="CMake Files\ext\yiot-core\ext\json\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/iotkit/sdk/cmake/TransitiveArgs.cmake">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/iotkit/sdk/cmake/virgil_depends.cmake">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/iotkit/sdk/cmake/virgil_depends_local.cmake">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/qtkeychain/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\qtkeychain\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/qtkeychain/QtKeychainConfig.cmake.in">
+			<Option virtualFolder="CMake Files\ext\qtkeychain\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/qtkeychain/cmake/Modules/ECMGeneratePriFile.cmake">
+			<Option virtualFolder="CMake Files\ext\qtkeychain\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/qtkeychain/cmake/Modules/ECMPackageConfigHelpers.cmake">
+			<Option virtualFolder="CMake Files\ext\qtkeychain\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/qtkeychain/cmake/Modules/ECMQueryQmake.cmake">
+			<Option virtualFolder="CMake Files\ext\qtkeychain\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/qtkeychain/cmake/Modules/ECMSetupVersion.cmake">
+			<Option virtualFolder="CMake Files\ext\qtkeychain\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/qtkeychain/cmake/Modules/GNUInstallDirs.cmake">
+			<Option virtualFolder="CMake Files\ext\qtkeychain\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/ext/cmake/sdbus.cmake">
+			<Option virtualFolder="CMake Files\ext\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed/lib64/cmake/sdbus-c++/sdbus-c++-config-version.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-host\depends\installed\lib64\cmake\sdbus-c++\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed/lib64/cmake/sdbus-c++/sdbus-c++-config.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-host\depends\installed\lib64\cmake\sdbus-c++\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed/lib64/cmake/sdbus-c++/sdbus-c++-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-host\depends\installed\lib64\cmake\sdbus-c++\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed/lib64/cmake/sdbus-c++/sdbus-c++-targets.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-host\depends\installed\lib64\cmake\sdbus-c++\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed/lib/cmake/MbedTLS/mbedtls-config-version.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-host\depends\installed\lib\cmake\MbedTLS\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed/lib/cmake/MbedTLS/mbedtls-config.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-host\depends\installed\lib\cmake\MbedTLS\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed/lib/cmake/MbedTLS/mbedtls-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-host\depends\installed\lib\cmake\MbedTLS\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed/lib/cmake/MbedTLS/mbedtls-targets.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-host\depends\installed\lib\cmake\MbedTLS\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/controll-app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\controll-app\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/controll-app/cmake/iotkit-qt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\controll-app\cmake\iotkit-qt\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/controll-app/src/resources.qrc">
+			<Option virtualFolder="CMake Files\controll-app\src\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/controll-app/extensions/devices/rpi/device.qrc">
+			<Option virtualFolder="CMake Files\controll-app\extensions\devices\rpi\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/controll-app/extensions/devices/router/router.qrc">
+			<Option virtualFolder="CMake Files\controll-app\extensions\devices\router\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/controll-app/extensions/devices/emulator-lamp/lamp.qrc">
+			<Option virtualFolder="CMake Files\controll-app\extensions\devices\emulator-lamp\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/controll-app/extensions/devices/emulator-doorlock/doorlock.qrc">
+			<Option virtualFolder="CMake Files\controll-app\extensions\devices\emulator-doorlock\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/integration.qrc">
+			<Option virtualFolder="CMake Files\controll-app\extensions\integrations\websocket\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/plugin.qrc">
+			<Option virtualFolder="CMake Files\controll-app\extensions\plugins\rpi-vpn\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Bluetooth/Qt5BluetoothConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Bluetooth\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Bluetooth/Qt5BluetoothConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Bluetooth\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5DBus/Qt5DBusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5DBus/Qt5DBusConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5DBus/Qt5DBusMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Test/Qt5TestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5WebSockets/Qt5WebSocketsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5WebSockets\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/../../../soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5WebSockets/Qt5WebSocketsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\soft\Qt5\5.15.1\gcc_64\lib\cmake\Qt5WebSockets\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake/deployers.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake/varpadding.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/cmake/vsplatforms.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/device-app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\device-app\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/device-app/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\device-app\main\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/device-app/main/linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\device-app\main\linux\"/>
+		</Unit>
+		<Unit filename="/home/roman/Work/yiot/YIoT/device-app/main/emulator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\device-app\main\emulator\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

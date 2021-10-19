@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../device-app/main/common/nix/include/common/helpers/timer.h
+chrono
+-
+functional
+-
+mutex
+-
+
+/home/roman/Work/yiot/YIoT/device-app/main/common/nix/src/helpers/timer.cpp
+common/helpers/timer.h
+/home/roman/Work/yiot/YIoT/device-app/main/common/nix/src/helpers/common/helpers/timer.h
+thread
+-
+

@@ -1,0 +1,16 @@
+{
+  "devices": [
+    {
+        "dir": "qrc:/device/0"
+    },
+    {
+      "dir": "qrc:/device/1"
+    },
+    {
+      "dir": "qrc:/device/2"
+    },
+    {
+      "dir": "qrc:/device/3"
+    }
+  ]
+}

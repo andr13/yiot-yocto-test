@@ -1,0 +1,2 @@
+/usr/bin/ar qc libyiot-qos1-helper.a  CMakeFiles/yiot-qos1-helper.dir/src/resend-container.cpp.o
+/usr/bin/ranlib libyiot-qos1-helper.a

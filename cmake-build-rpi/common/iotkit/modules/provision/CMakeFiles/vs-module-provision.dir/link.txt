@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-module-provision.a  CMakeFiles/vs-module-provision.dir/src/provision.c.o
+/usr/bin/ranlib libvs-module-provision.a

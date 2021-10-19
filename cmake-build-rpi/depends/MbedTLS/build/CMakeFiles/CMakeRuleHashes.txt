@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+7ed9761aba35b5a35ebab32ef31ef7ec CMakeFiles/MbedTLS-depends
+37dd7ab97c5370ba0d0e1934e7c32607 CMakeFiles/MbedTLS-depends-complete
+fe7746cedf12ed1bfb3c59d87743ea6c src/MbedTLS-depends-stamp/MbedTLS-depends-build
+bb713f4f39f3d7d1906b05909212a6d7 src/MbedTLS-depends-stamp/MbedTLS-depends-configure
+226af47207a735549f32565eebd8ceb3 src/MbedTLS-depends-stamp/MbedTLS-depends-download
+3d63e048e147a309a4d086d3f0537390 src/MbedTLS-depends-stamp/MbedTLS-depends-install
+b39bee6673b143afc1476945c37baa78 src/MbedTLS-depends-stamp/MbedTLS-depends-mkdir
+bdb3ae783acdb815ac8d650b2f11d9a7 src/MbedTLS-depends-stamp/MbedTLS-depends-patch
+71b568c7ac1a5dcd5d83577672a68f64 src/MbedTLS-depends-stamp/MbedTLS-depends-update

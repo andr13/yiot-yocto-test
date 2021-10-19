@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-module-logger.a CMakeFiles/vs-module-logger.dir/src/logger.c.o CMakeFiles/vs-module-logger.dir/src/utoa_fast_div.c.o
+/usr/bin/ranlib libvs-module-logger.a

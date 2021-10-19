@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roman/Work/yiot/YIoT/ext/iotkit/sdk/ext/jsmn/jsmn.c
+jsmn.h
+/home/roman/Work/yiot/YIoT/ext/iotkit/sdk/ext/jsmn/jsmn.h
+
+/home/roman/Work/yiot/YIoT/ext/iotkit/sdk/ext/jsmn/jsmn.h
+stddef.h
+-
+

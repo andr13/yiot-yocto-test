@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "yiot-device-app-emulator_app-helpers.c.format"
+  "yiot-device-app-emulator_app-helpers.h.format"
+  "yiot-device-app-emulator_app-storage.c.format"
+  "yiot-device-app-emulator_app-storage.h.format"
+  "yiot-device-app-emulator_command.h.format"
+  "yiot-device-app-emulator_curl-websock.c.format"
+  "yiot-device-app-emulator_curl-websock.h.format"
+  "yiot-device-app-emulator_device-base.h.format"
+  "yiot-device-app-emulator_event-group-bits.c.format"
+  "yiot-device-app-emulator_event-group-bits.h.format"
+  "yiot-device-app-emulator_file-cache.c.format"
+  "yiot-device-app-emulator_file-cache.h.format"
+  "yiot-device-app-emulator_file-io.c.format"
+  "yiot-device-app-emulator_file-io.h.format"
+  "yiot-device-app-emulator_helpers.c.format"
+  "yiot-device-app-emulator_init.c.format"
+  "yiot-device-app-emulator_init.h.format"
+  "yiot-device-app-emulator_main.c.format"
+  "yiot-device-app-emulator_msg-queue.c.format"
+  "yiot-device-app-emulator_msg-queue.h.format"
+  "yiot-device-app-emulator_netif-websock.c.format"
+  "yiot-device-app-emulator_netif-websock.h.format"
+  "yiot-device-app-emulator_packets-queue.c.format"
+  "yiot-device-app-emulator_packets-queue.h.format"
+  "yiot-device-app-emulator_settings.cpp.format"
+  "yiot-device-app-emulator_settings.h.format"
+  "yiot-device-app-emulator_storage-nix-impl.c.format"
+  "yiot-device-app-emulator_storage-nix-impl.h.format"
+  "yiot-device-app-emulator_test-door-lock.cpp.format"
+  "yiot-device-app-emulator_test-door-lock.h.format"
+  "yiot-device-app-emulator_test-lamp.cpp.format"
+  "yiot-device-app-emulator_test-lamp.h.format"
+  "yiot-device-app-emulator_timer.cpp.format"
+  "yiot-device-app-emulator_timer.h.format"
+  "yiot-device-app-emulator_utils.c.format"
+  "yiot-device-app-emulator_utils.h.format"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/yiot-device-app-emulator_clangformat.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

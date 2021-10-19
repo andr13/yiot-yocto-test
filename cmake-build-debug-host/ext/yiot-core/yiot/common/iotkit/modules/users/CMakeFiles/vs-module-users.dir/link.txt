@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-module-users.a CMakeFiles/vs-module-users.dir/src/users.c.o
+/usr/bin/ranlib libvs-module-users.a

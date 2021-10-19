@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/MbedTLS/build/CMakeFiles/MbedTLS-depends"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/MbedTLS/build/CMakeFiles/MbedTLS-depends.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/MbedTLS/build/CMakeFiles/MbedTLS-depends-complete.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-install.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-mkdir.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-download.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-update.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-patch.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-configure.rule"
+		},
+		{
+			"file" : "/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MbedTLS-depends"
+		],
+		"name" : "MbedTLS-depends"
+	}
+}

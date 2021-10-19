@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-module-firmware.a CMakeFiles/vs-module-firmware.dir/src/firmware.c.o CMakeFiles/vs-module-firmware.dir/src/update_fw_interface.c.o
+/usr/bin/ranlib libvs-module-firmware.a

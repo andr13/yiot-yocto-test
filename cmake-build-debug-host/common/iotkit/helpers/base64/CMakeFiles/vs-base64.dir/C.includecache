@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roman/Work/yiot/YIoT/ext/iotkit/sdk/helpers/base64/src/base64.c
+string.h
+-
+stdbool.h
+-
+

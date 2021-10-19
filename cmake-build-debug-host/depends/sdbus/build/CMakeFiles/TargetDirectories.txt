@@ -1,0 +1,4 @@
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/CMakeFiles/rebuild_cache.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/CMakeFiles/edit_cache.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/CMakeFiles/sdbus-depends-build.dir
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/CMakeFiles/sdbus-depends.dir

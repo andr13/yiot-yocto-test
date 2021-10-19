@@ -1,0 +1,167 @@
+{
+	"BUILD_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/qtkeychain/qtkeychain_autogen",
+	"CMAKE_BINARY_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/qtkeychain",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/roman/Work/yiot/YIoT/ext/qtkeychain",
+	"CMAKE_EXECUTABLE" : "/home/roman/soft/cmake-3.18.4-Linux-x86_64/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain/CMakeLists.txt",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/FindPkgConfig.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/FindPackageMessage.cmake",
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain/cmake/Modules/GNUInstallDirs.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/GenerateExportHeader.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CheckCCompilerFlag.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CheckCSourceCompiles.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CheckCXXCompilerFlag.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CheckCXXSourceCompiles.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain/cmake/Modules/ECMPackageConfigHelpers.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CMakePackageConfigHelpers.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/WriteBasicConfigVersionFile.cmake",
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain/cmake/Modules/ECMSetupVersion.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CMakePackageConfigHelpers.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/WriteBasicConfigVersionFile.cmake",
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain/cmake/Modules/ECMGeneratePriFile.cmake",
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain/cmake/Modules/ECMQueryQmake.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5DBus/Qt5DBusConfig.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5DBus/Qt5DBusConfigExtras.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5DBus/Qt5DBusMacros.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/MacroAddFileDependencies.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CMakeParseArguments.cmake",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/exportheader.cmake.in",
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain/QtKeychainConfig.cmake.in",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/roman/Work/yiot/YIoT",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/roman/Work/yiot/YIoT/ext/qtkeychain/gnomekeyring_p.h",
+			"mU",
+			""
+		],
+		[ "/home/roman/Work/yiot/YIoT/ext/qtkeychain/keychain.h", "mU", "" ],
+		[ "/home/roman/Work/yiot/YIoT/ext/qtkeychain/keychain_p.h", "mU", "" ],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/qtkeychain/libsecret_p.h",
+			"MU",
+			"EWIEGA46WW/moc_libsecret_p.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/qtkeychain/plaintextstore_p.h",
+			"MU",
+			"EWIEGA46WW/moc_plaintextstore_p.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/qtkeychain/qkeychain_export.h",
+			"MU",
+			"EWIEGA46WW/moc_qkeychain_export.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/qtkeychain/qtkeychain_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/qtkeychain/qtkeychain_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"HAVE_LIBSECRET=1",
+		"QKEYCHAIN_STATICLIB",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_QML_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/qtkeychain",
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain",
+		"/usr/include/libsecret-1",
+		"/usr/include/glib-2.0",
+		"/usr/lib64/glib-2.0/include",
+		"/usr/include/libmount",
+		"/usr/include/blkid",
+		"/usr/include/uuid",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtDBus",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtCore",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/mkspecs/linux-g++",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtWidgets",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtGui",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtQml",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtNetwork",
+		"/usr/include",
+		"/usr/include/c++/8",
+		"/usr/include/c++/8/x86_64-redhat-linux",
+		"/usr/include/c++/8/backward",
+		"/usr/lib/gcc/x86_64-redhat-linux/8/include",
+		"/usr/local/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/qtkeychain/qtkeychain_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain/gnomekeyring_p.h",
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain/keychain.h",
+		"/home/roman/Work/yiot/YIoT/ext/qtkeychain/keychain_p.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/qtkeychain/CMakeFiles/qtkeychain_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/roman/soft/Qt5/5.15.1/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/roman/soft/Qt5/5.15.1/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/qtkeychain/CMakeFiles/qtkeychain_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/roman/Work/yiot/YIoT/ext/qtkeychain/gnomekeyring.cpp", "MU" ],
+		[ "/home/roman/Work/yiot/YIoT/ext/qtkeychain/keychain.cpp", "MU" ],
+		[ "/home/roman/Work/yiot/YIoT/ext/qtkeychain/keychain_unix.cpp", "MU" ],
+		[ "/home/roman/Work/yiot/YIoT/ext/qtkeychain/libsecret.cpp", "MU" ],
+		[ "/home/roman/Work/yiot/YIoT/ext/qtkeychain/plaintextstore.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/yiot_autogen",
+	"CMAKE_BINARY_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/roman/Work/yiot/YIoT/controll-app",
+	"CMAKE_SOURCE_DIR" : "/home/roman/Work/yiot/YIoT",
+	"INCLUDE_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/yiot_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/info.json",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/src/qml/Control.qml",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/src/icons/light/websocket.png",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/src/icons/dark/websocket.png",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/src/js/main.qml",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/info/logo/logo.png",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/info/texts/en/title.txt",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/info/texts/en/link.txt",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/info/texts/en/description.md"
+	],
+	"LOCK_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/CMakeFiles/yiot_autogen.dir/AutoRcc_integration_IZEH2DYXPN_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "integration" ],
+	"OUTPUT_CHECKSUM" : "IZEH2DYXPN",
+	"OUTPUT_NAME" : "qrc_integration.cpp",
+	"RCC_EXECUTABLE" : "/home/roman/soft/Qt5/5.15.1/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/CMakeFiles/yiot_autogen.dir/AutoRcc_integration_IZEH2DYXPN_Used.txt",
+	"SOURCE" : "/home/roman/Work/yiot/YIoT/controll-app/extensions/integrations/websocket/integration.qrc",
+	"VERBOSITY" : 0
+}

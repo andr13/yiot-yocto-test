@@ -1,0 +1,10 @@
+QT.QtKeychain.VERSION = 0.9.90
+QT.QtKeychain.MAJOR_VERSION = 0
+QT.QtKeychain.MINOR_VERSION = 9
+QT.QtKeychain.PATCH_VERSION = 90
+QT.QtKeychain.name = qtkeychain
+QT.QtKeychain.defines = 
+QT.QtKeychain.includes = /usr/local/include
+QT.QtKeychain.private_includes =
+QT.QtKeychain.libs = /usr/local/lib64
+QT.QtKeychain.depends = core dbus

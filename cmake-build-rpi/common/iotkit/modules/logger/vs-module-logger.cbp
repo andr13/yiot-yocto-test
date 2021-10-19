@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vs-module-logger"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\bluez-dbus\;CMake Files\ext\bluez-dbus\cmake\;CMake Files\ext\bluez-dbus\pkgconfig\;CMake Files\ext\iotkit\;CMake Files\ext\iotkit\sdk\;CMake Files\ext\iotkit\sdk\modules\;CMake Files\ext\iotkit\sdk\modules\crypto\;CMake Files\ext\iotkit\sdk\modules\crypto\converters\;CMake Files\ext\iotkit\sdk\modules\crypto\secmodule\;CMake Files\ext\iotkit\sdk\modules\crypto\high-level\;CMake Files\ext\iotkit\sdk\modules\crypto\session\;CMake Files\ext\iotkit\sdk\modules\logger\;CMake Files\ext\iotkit\sdk\modules\provision\;CMake Files\ext\iotkit\sdk\modules\provision\trust_list\;CMake Files\ext\iotkit\sdk\modules\firmware\;CMake Files\ext\iotkit\sdk\modules\protocols\;CMake Files\ext\iotkit\sdk\modules\protocols\snap\;CMake Files\ext\iotkit\sdk\modules\secbox\;CMake Files\ext\iotkit\sdk\modules\users\;CMake Files\ext\iotkit\sdk\cmake\;CMake Files\ext\iotkit\sdk\helpers\;CMake Files\ext\iotkit\sdk\helpers\status_code\;CMake Files\ext\iotkit\sdk\helpers\macros\;CMake Files\ext\iotkit\sdk\helpers\storage_hal\;CMake Files\ext\iotkit\sdk\helpers\update\;CMake Files\ext\iotkit\sdk\helpers\json\;CMake Files\ext\iotkit\sdk\helpers\threadsafe\;CMake Files\ext\iotkit\sdk\ext\;CMake Files\ext\iotkit\sdk\ext\jsmn\;CMake Files\ext\iotkit\sdk\default-impl\;CMake Files\ext\iotkit\sdk\default-impl\crypto\;CMake Files\ext\iotkit\sdk\default-impl\crypto\vs-soft-secmodule\;CMake Files\ext\iotkit\sdk\tests\;CMake Files\ext\iotkit\demo\;CMake Files\ext\iotkit\demo\nix\;CMake Files\ext\iotkit\demo\nix\common\;CMake Files\ext\json\;CMake Files\ext\json\cmake\;CMake Files\ext\cmake\;CMake Files\cmake-build-rpi\;CMake Files\cmake-build-rpi\depends\;CMake Files\cmake-build-rpi\depends\installed\;CMake Files\cmake-build-rpi\depends\installed\lib\;CMake Files\cmake-build-rpi\depends\installed\lib\cmake\;CMake Files\cmake-build-rpi\depends\installed\lib\cmake\sdbus-c++\;CMake Files\cmake-build-rpi\depends\installed\lib\cmake\MbedTLS\;CMake Files\common\;CMake Files\common\protocols\;CMake Files\common\protocols\snap\;CMake Files\common\qos1\;CMake Files\cmake\;CMake Files\device-app\;CMake Files\device-app\main\;CMake Files\device-app\main\linux\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vs-module-logger">
+				<Option output="/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/libvs-module-logger.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVIRGIL_IOT_MCU_BUILD=0"/>
+					<Add directory="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/logger/include"/>
+					<Add directory="/tmp/tmp.DDugRronBx/common/config/pc"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 vs-module-logger"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vs-module-logger/fast">
+				<Option output="/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/libvs-module-logger.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DVIRGIL_IOT_MCU_BUILD=0"/>
+					<Add directory="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/logger/include"/>
+					<Add directory="/tmp/tmp.DDugRronBx/common/config/pc"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 vs-module-logger/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.DDugRronBx/cmake-build-rpi/common/iotkit/modules/logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/logger/include/private/utoa_fast_div.h">
+			<Option target="vs-module-logger"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/logger/include/virgil/iot/logger/logger-hal.h">
+			<Option target="vs-module-logger"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/logger/include/virgil/iot/logger/logger.h">
+			<Option target="vs-module-logger"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/logger/include/virgil/iot/logger/macro_va_args.h">
+			<Option target="vs-module-logger"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/logger/src/logger.c">
+			<Option target="vs-module-logger"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/logger/src/utoa_fast_div.c">
+			<Option target="vs-module-logger"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/bluez-dbus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\bluez-dbus\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/bluez-dbus/cmake/bluez-dbus-cpp-config.cmake.in">
+			<Option virtualFolder="CMake Files\ext\bluez-dbus\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/bluez-dbus/pkgconfig/bluez-dbus-cpp.pc.in">
+			<Option virtualFolder="CMake Files\ext\bluez-dbus\pkgconfig\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/crypto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\crypto\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/crypto/converters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\crypto\converters\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/crypto/secmodule/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\crypto\secmodule\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/crypto/high-level/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\crypto\high-level\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/crypto/session/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\crypto\session\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/logger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\logger\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/provision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\provision\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/provision/trust_list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\provision\trust_list\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/firmware/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\firmware\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/protocols/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\protocols\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/protocols/snap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\protocols\snap\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/secbox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\secbox\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/modules/users/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\modules\users\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/cmake/TransitiveArgs.cmake">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/cmake/TransitiveToolchainArgs.cmake">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/cmake/clangformat.cmake">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/cmake/helpers.cmake">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/cmake/virgil_depends.cmake">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/cmake/virgil_depends_local.cmake">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/helpers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\helpers\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/helpers/status_code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\helpers\status_code\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/helpers/macros/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\helpers\macros\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/helpers/storage_hal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\helpers\storage_hal\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/helpers/update/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\helpers\update\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/helpers/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\helpers\json\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/helpers/threadsafe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\helpers\threadsafe\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/ext/jsmn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\ext\jsmn\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/default-impl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\default-impl\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/default-impl/crypto/vs-soft-secmodule/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\default-impl\crypto\vs-soft-secmodule\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/sdk/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\sdk\tests\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/iotkit/demo/nix/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\iotkit\demo\nix\common\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\json\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/json/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\ext\json\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/ext/cmake/sdbus.cmake">
+			<Option virtualFolder="CMake Files\ext\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed/lib/cmake/sdbus-c++/sdbus-c++-config-version.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-rpi\depends\installed\lib\cmake\sdbus-c++\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed/lib/cmake/sdbus-c++/sdbus-c++-config.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-rpi\depends\installed\lib\cmake\sdbus-c++\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed/lib/cmake/sdbus-c++/sdbus-c++-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-rpi\depends\installed\lib\cmake\sdbus-c++\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed/lib/cmake/sdbus-c++/sdbus-c++-targets.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-rpi\depends\installed\lib\cmake\sdbus-c++\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed/lib/cmake/MbedTLS/mbedtls-config-version.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-rpi\depends\installed\lib\cmake\MbedTLS\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed/lib/cmake/MbedTLS/mbedtls-config.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-rpi\depends\installed\lib\cmake\MbedTLS\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed/lib/cmake/MbedTLS/mbedtls-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-rpi\depends\installed\lib\cmake\MbedTLS\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/installed/lib/cmake/MbedTLS/mbedtls-targets.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-rpi\depends\installed\lib\cmake\MbedTLS\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/common/protocols/snap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\protocols\snap\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/common/qos1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\qos1\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/cmake/varpadding.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/device-app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\device-app\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/device-app/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\device-app\main\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.DDugRronBx/device-app/main/linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\device-app\main\linux\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

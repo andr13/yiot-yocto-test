@@ -1,0 +1,11 @@
+prefix=/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed
+exec_prefix=/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed
+libdir=/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed/lib64
+includedir=/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/installed/include
+
+Name: sdbus-c++
+Description: C++ library on top of sd-bus, a systemd D-Bus library
+Requires: libsystemd
+Version: 0.8.2
+Libs: -L${libdir} -lsdbus-c++
+Cflags: -I${includedir}

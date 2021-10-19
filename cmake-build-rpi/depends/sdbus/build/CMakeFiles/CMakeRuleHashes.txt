@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+4d6067c297842973cebb64cb7bf495cb CMakeFiles/sdbus-depends
+bedbcc135f8d9efdedc3c1790092afdb CMakeFiles/sdbus-depends-complete
+a5b6280ddd83d72dcf3aa4914d305113 src/sdbus-depends-stamp/sdbus-depends-build
+61dabc8f93cda96026f44c357cfbfaa3 src/sdbus-depends-stamp/sdbus-depends-configure
+3a9f0513232533d34cc79e730340f967 src/sdbus-depends-stamp/sdbus-depends-download
+f4b41644411b2a09af4a8168ffdc280e src/sdbus-depends-stamp/sdbus-depends-install
+94015e8f7f257a313ad8c6c177ce88fc src/sdbus-depends-stamp/sdbus-depends-mkdir
+17003f212dcd4b997eafc676e3d07ee7 src/sdbus-depends-stamp/sdbus-depends-patch
+f46e8a984c8611e3d1848ee231949aa6 src/sdbus-depends-stamp/sdbus-depends-update

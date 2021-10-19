@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-module-crypto-session.a  CMakeFiles/vs-module-crypto-session.dir/src/session.c.o
+/usr/bin/ranlib libvs-module-crypto-session.a

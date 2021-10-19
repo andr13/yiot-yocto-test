@@ -1,0 +1,71 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DKS_PLATFORM=linux -DUSE_ASAN=ON -G "CodeBlocks - Unix Makefiles" /home/roman/Work/yiot/YIoT
+-- Create transitive-args.cmake
+-- Autodetecting enviroment for target platform: [linux]
+-- CMAKE_FIND_ROOT_PATH = 
+-- CMAKE_PREFIX_PATH = 
+-- QT_QMAKE_EXECUTABLE = 
+-- CMAKE_FIND_ROOT_PATH = /home/roman/soft/Qt5/5.15.1/gcc_64
+-- CMAKE_PREFIX_PATH = /home/roman/soft/Qt5/5.15.1/gcc_64
+-- QT_QMAKE_EXECUTABLE = /home/roman/soft/Qt5/5.15.1/gcc_64/bin/qmake
+-- KS_PLATFORM: linux
+-- KS_PLATFORM_DESKTOP: ON
+-- Using the single-header code from /home/roman/Work/yiot/YIoT/ext/yiot-core/ext/json/single_include/
+-- Address Sanitizer: ON
+-- Undefined behavior Sanitizer: 
+-- Thread Sanitizer: 
+-- Memory Sanitizer: 
+-- Leak Sanitizer: 
+-- [virgil-iot-sdk] path to the Virgil IOT SDK config : /home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc
+-- [VIRGIL_IOT_SDK_HAL_INC_PATH] Additional paths to HAL : 
+-- No CFLAGS_PLATFORM
+-- [vs-module-logger] path to the Virgil IOT SDK config : /home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc
+-- No CFLAGS_PLATFORM
+-- [trust_list] path to the Virgil IOT SDK config : /home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc
+-- No CFLAGS_PLATFORM
+-- SNAP_DEFINITIONS for vs-module-snap-factory = PRVS_CLIENT=1 INFO_CLIENT=1 CFG_CLIENT=1
+-- SNAP_DEFINITIONS for vs-module-snap-initializer = PRVS_SERVER=1 INFO_SERVER=1 CFG_SERVER=1
+-- SNAP_DEFINITIONS for vs-module-snap-thing = FLDT_CLIENT=1 INFO_SERVER=1 CFG_SERVER=1 MSGR_SERVER=1 SCRT_SERVER=1
+-- SNAP_DEFINITIONS for vs-module-snap-gateway = FLDT_SERVER=1 INFO_SERVER=1 CFG_SERVER=1 MSGR_CLIENT=1 SCRT_SERVER=1
+-- SNAP_DEFINITIONS for vs-module-snap-control = INFO_CLIENT=1 CFG_CLIENT=1 LAMP_CLIENT=1 PRVS_CLIENT=1 SCRT_CLIENT=1
+-- No CFLAGS_PLATFORM
+-- [vs-module-secmodule] path to the Virgil IOT SDK config : /home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc
+-- [converters] path to the Virgil IOT SDK config : /home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc
+-- No CFLAGS_PLATFORM
+-- [vs-module-crypto-high-level] path to the Virgil IOT SDK config : /home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc
+-- [vs-module-crypto-session] path to the Virgil IOT SDK config : /home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc
+-- No CFLAGS_PLATFORM
+-- [virgil-iot-sdk-tests] path to the Virgil IOT SDK config : /home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc
+-- SNAP_DEFINITIONS for yiot-snap-thing-lamp = LAMP_SERVER=1
+-- SNAP_DEFINITIONS for yiot-snap-thing-pc = PC_SERVER=1
+-- SNAP_DEFINITIONS for yiot-snap-control = LAMP_CLIENT=1 PC_CLIENT=1
+[100%] Built target sdbus-depends
+[100%] Built target sdbus-depends-build
+gmake: *** No rule to make target 'install'.  Stop.
+INSTALL TARGETS - target bluez-dbus-cpp has PUBLIC_HEADER files but no PUBLIC_HEADER DESTINATION.
+-- Build type: [Debug]
+CMake Warning (dev) at ext/qtkeychain/CMakeLists.txt:2 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Deprecation Warning at ext/qtkeychain/CMakeLists.txt:17 (cmake_policy):
+  The OLD behavior for policy CMP0071 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/roman/Work/yiot/YIoT/cmake-build-debug-host

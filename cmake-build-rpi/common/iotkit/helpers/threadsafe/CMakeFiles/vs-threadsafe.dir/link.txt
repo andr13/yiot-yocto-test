@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-threadsafe.a  CMakeFiles/vs-threadsafe.dir/src/vs-lock.c.o
+/usr/bin/ranlib libvs-threadsafe.a

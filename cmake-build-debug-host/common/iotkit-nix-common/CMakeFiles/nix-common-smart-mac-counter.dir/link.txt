@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnix-common-smart-mac-counter.a CMakeFiles/nix-common-smart-mac-counter.dir/src/remote-device/smart-mac-counter-data-impl.c.o
+/usr/bin/ranlib libnix-common-smart-mac-counter.a

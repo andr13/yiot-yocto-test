@@ -1,0 +1,2 @@
+/usr/bin/ar qc libupdate.a CMakeFiles/update.dir/src/update.c.o
+/usr/bin/ranlib libupdate.a

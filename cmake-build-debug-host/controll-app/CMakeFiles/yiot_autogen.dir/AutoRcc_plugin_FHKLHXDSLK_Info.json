@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/yiot_autogen",
+	"CMAKE_BINARY_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/roman/Work/yiot/YIoT/controll-app",
+	"CMAKE_SOURCE_DIR" : "/home/roman/Work/yiot/YIoT",
+	"INCLUDE_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/yiot_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/info.json",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/src/qml/Control.qml",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/src/icons/light/vpn-router.png",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/src/icons/dark/vpn-router.png",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/src/js/main.qml",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/info/logo/logo.png",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/info/texts/en/title.txt",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/info/texts/en/link.txt",
+		"/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/info/texts/en/description.md"
+	],
+	"LOCK_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/CMakeFiles/yiot_autogen.dir/AutoRcc_plugin_FHKLHXDSLK_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "plugin" ],
+	"OUTPUT_CHECKSUM" : "FHKLHXDSLK",
+	"OUTPUT_NAME" : "qrc_plugin.cpp",
+	"RCC_EXECUTABLE" : "/home/roman/soft/Qt5/5.15.1/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/CMakeFiles/yiot_autogen.dir/AutoRcc_plugin_FHKLHXDSLK_Used.txt",
+	"SOURCE" : "/home/roman/Work/yiot/YIoT/controll-app/extensions/plugins/rpi-vpn/plugin.qrc",
+	"VERBOSITY" : 0
+}

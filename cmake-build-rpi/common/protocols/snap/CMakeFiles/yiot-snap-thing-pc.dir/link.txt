@@ -1,0 +1,2 @@
+/usr/bin/ar qc libyiot-snap-thing-pc.a  CMakeFiles/yiot-snap-thing-pc.dir/src/lamp/lamp-server.c.o CMakeFiles/yiot-snap-thing-pc.dir/src/lamp/lamp-client.c.o CMakeFiles/yiot-snap-thing-pc.dir/src/pc/pc-server.c.o CMakeFiles/yiot-snap-thing-pc.dir/src/pc/pc-client.c.o
+/usr/bin/ranlib libyiot-snap-thing-pc.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libyiot-snap-control.a CMakeFiles/yiot-snap-control.dir/src/user/user-server.c.o CMakeFiles/yiot-snap-control.dir/src/user/user-client.c.o
+/usr/bin/ranlib libyiot-snap-control.a

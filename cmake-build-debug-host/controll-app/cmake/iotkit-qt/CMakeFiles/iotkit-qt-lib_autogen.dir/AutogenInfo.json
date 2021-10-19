@@ -1,0 +1,287 @@
+{
+	"BUILD_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/cmake/iotkit-qt/iotkit-qt-lib_autogen",
+	"CMAKE_BINARY_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/cmake/iotkit-qt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/roman/Work/yiot/YIoT/controll-app/cmake/iotkit-qt",
+	"CMAKE_EXECUTABLE" : "/home/roman/soft/cmake-3.18.4-Linux-x86_64/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/roman/Work/yiot/YIoT/controll-app/cmake/iotkit-qt/CMakeLists.txt",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Bluetooth/Qt5BluetoothConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Bluetooth/Qt5BluetoothConfig.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/roman/Work/yiot/YIoT",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/default-impl/netif/ble/include/virgil/iot/qt/netif/VSQNetifBLE.h",
+			"MU",
+			"BY65KT4QK4/moc_VSQNetifBLE.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/default-impl/netif/ble/include/virgil/iot/qt/netif/VSQNetifBLEEnumerator.h",
+			"MU",
+			"BY65KT4QK4/moc_VSQNetifBLEEnumerator.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/VSQIoTKit.h",
+			"MU",
+			"4XKVMFYXSL/moc_VSQIoTKit.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/helpers/VSQAppConfig.h",
+			"MU",
+			"TNYS7INCHM/moc_VSQAppConfig.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/helpers/VSQDeviceRoles.h",
+			"MU",
+			"TNYS7INCHM/moc_VSQDeviceRoles.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/helpers/VSQDeviceSerial.h",
+			"MU",
+			"TNYS7INCHM/moc_VSQDeviceSerial.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/helpers/VSQDeviceType.h",
+			"MU",
+			"TNYS7INCHM/moc_VSQDeviceType.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/helpers/VSQFileVersion.h",
+			"MU",
+			"TNYS7INCHM/moc_VSQFileVersion.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/helpers/VSQHelpers.h",
+			"MU",
+			"TNYS7INCHM/moc_VSQHelpers.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/helpers/VSQImplementations.h",
+			"MU",
+			"TNYS7INCHM/moc_VSQImplementations.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/helpers/VSQMac.h",
+			"MU",
+			"TNYS7INCHM/moc_VSQMac.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/helpers/VSQManufactureId.h",
+			"MU",
+			"TNYS7INCHM/moc_VSQManufactureId.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/helpers/VSQSingleton.h",
+			"MU",
+			"TNYS7INCHM/moc_VSQSingleton.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/protocols/snap/VSQNetifBase.h",
+			"MU",
+			"3A5D3WEJDK/moc_VSQNetifBase.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/protocols/snap/VSQSnapCFGClient.h",
+			"MU",
+			"3A5D3WEJDK/moc_VSQSnapCFGClient.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/protocols/snap/VSQSnapINFOClient.h",
+			"MU",
+			"3A5D3WEJDK/moc_VSQSnapINFOClient.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/protocols/snap/VSQSnapINFOClientQml.h",
+			"MU",
+			"3A5D3WEJDK/moc_VSQSnapINFOClientQml.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/protocols/snap/VSQSnapServiceBase.h",
+			"MU",
+			"3A5D3WEJDK/moc_VSQSnapServiceBase.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include/virgil/iot/qt/protocols/snap/VSQSnapSnifferQml.h",
+			"MU",
+			"3A5D3WEJDK/moc_VSQSnapSnifferQml.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/macros/include/virgil/iot/macros/macros.h",
+			"MU",
+			"6LWCBOUU6F/moc_macros.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/status_code/include/virgil/iot/status_code/status_code.h",
+			"MU",
+			"SEELBMFU3X/moc_status_code.cpp"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/storage_hal/include/virgil/iot/storage_hal/storage_hal.h",
+			"MU",
+			"YNY7HBXP3I/moc_storage_hal.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/cmake/iotkit-qt/iotkit-qt-lib_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/cmake/iotkit-qt/iotkit-qt-lib_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"CFG_CLIENT=1",
+		"INFO_CLIENT=1",
+		"INFO_SERVER=1",
+		"LAMP_CLIENT=1",
+		"PC_CLIENT=1",
+		"PRVS_CLIENT=1",
+		"QT_BLUETOOTH_LIB",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_NETWORK_LIB",
+		"QT_QML_LIB",
+		"SCRT_CLIENT=1"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/cmake/iotkit-qt",
+		"/home/roman/Work/yiot/YIoT/controll-app/cmake/iotkit-qt",
+		"/home/roman/Work/yiot/YIoT/controll-app/cmake/iotkit-qt/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/default-impl/netif/ble/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/logger/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/config/pc",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/provision/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/storage_hal/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/provision/trust_list/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/secmodule/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/macros/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/status_code/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/helpers/update/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/high-level/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/protocols/snap/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/users/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/secbox/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/sdk/modules/crypto/session/include",
+		"/home/roman/Work/yiot/YIoT/ext/yiot-core/yiot/common/protocols/snap/include",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtCore",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/mkspecs/linux-g++",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtNetwork",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtConcurrent",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtBluetooth",
+		"/home/roman/soft/Qt5/5.15.1/gcc_64/include/QtQml",
+		"/usr/include/c++/8",
+		"/usr/include/c++/8/x86_64-redhat-linux",
+		"/usr/include/c++/8/backward",
+		"/usr/lib/gcc/x86_64-redhat-linux/8/include",
+		"/usr/local/include",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/roman/soft/cmake-3.18.4-Linux-x86_64/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/cmake/iotkit-qt/iotkit-qt-lib_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/cmake/iotkit-qt/CMakeFiles/iotkit-qt-lib_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/roman/soft/Qt5/5.15.1/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/roman/soft/Qt5/5.15.1/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/controll-app/cmake/iotkit-qt/CMakeFiles/iotkit-qt-lib_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/default-impl/hal.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/default-impl/netif/ble/src/VSQNetifBLE.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/default-impl/netif/ble/src/VSQNetifBLEEnumerator.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/VSQNetifBase.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/VSQSnapCFGClient.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/VSQSnapINFOClient.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/VSQSnapINFOClientQml.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/VSQSnapSnifferQml.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/helpers/VSQDeviceRoles.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/helpers/VSQDeviceSerial.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/helpers/VSQDeviceType.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/helpers/VSQFileVersion.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/helpers/VSQMac.cpp",
+			"MU"
+		],
+		[
+			"/home/roman/Work/yiot/YIoT/ext/yiot-core/iotkit/integration/qt/facade/src/helpers/VSQManufactureId.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

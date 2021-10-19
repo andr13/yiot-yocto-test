@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-module-secbox.a  CMakeFiles/vs-module-secbox.dir/src/secbox.c.o
+/usr/bin/ranlib libvs-module-secbox.a

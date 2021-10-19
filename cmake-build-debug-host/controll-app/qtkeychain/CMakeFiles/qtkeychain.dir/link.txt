@@ -1,0 +1,2 @@
+/usr/bin/ar qc libqtkeychain.a CMakeFiles/qtkeychain.dir/qtkeychain_autogen/mocs_compilation.cpp.o CMakeFiles/qtkeychain.dir/keychain.cpp.o CMakeFiles/qtkeychain.dir/keychain_unix.cpp.o CMakeFiles/qtkeychain.dir/gnomekeyring.cpp.o CMakeFiles/qtkeychain.dir/libsecret.cpp.o CMakeFiles/qtkeychain.dir/plaintextstore.cpp.o CMakeFiles/qtkeychain.dir/kwallet_interface.cpp.o CMakeFiles/qtkeychain.dir/moc_keychain.cpp.o CMakeFiles/qtkeychain.dir/moc_keychain_p.cpp.o CMakeFiles/qtkeychain.dir/moc_gnomekeyring_p.cpp.o
+/usr/bin/ranlib libqtkeychain.a

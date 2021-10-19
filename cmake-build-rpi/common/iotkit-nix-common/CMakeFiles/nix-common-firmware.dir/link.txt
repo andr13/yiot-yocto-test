@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnix-common-firmware.a  CMakeFiles/nix-common-firmware.dir/src/sdk-impl/firmware/firmware-impl.c.o
+/usr/bin/ranlib libnix-common-firmware.a

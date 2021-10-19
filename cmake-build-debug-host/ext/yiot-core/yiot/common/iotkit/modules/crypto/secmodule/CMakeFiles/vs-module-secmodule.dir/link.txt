@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-module-secmodule.a CMakeFiles/vs-module-secmodule.dir/src/secmodule-helpers.c.o CMakeFiles/vs-module-secmodule.dir/src/asn1-cryptogram.c.o CMakeFiles/vs-module-secmodule.dir/src/secmodule-ecies.c.o
+/usr/bin/ranlib libvs-module-secmodule.a

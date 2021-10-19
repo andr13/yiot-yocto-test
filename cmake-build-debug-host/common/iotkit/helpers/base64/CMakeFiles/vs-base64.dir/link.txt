@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvs-base64.a CMakeFiles/vs-base64.dir/src/base64.c.o
+/usr/bin/ranlib libvs-base64.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtrust_list.a  CMakeFiles/trust_list.dir/src/tl-private.c.o CMakeFiles/trust_list.dir/src/trust_list.c.o CMakeFiles/trust_list.dir/src/update_tl_interface.c.o
+/usr/bin/ranlib libtrust_list.a

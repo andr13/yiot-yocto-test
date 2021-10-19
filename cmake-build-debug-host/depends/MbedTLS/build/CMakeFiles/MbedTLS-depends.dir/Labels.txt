@@ -1,0 +1,13 @@
+# Target labels
+ MbedTLS-depends
+# Source files and their labels
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/MbedTLS/build/CMakeFiles/MbedTLS-depends
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/MbedTLS/build/CMakeFiles/MbedTLS-depends.rule
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/MbedTLS/build/CMakeFiles/MbedTLS-depends-complete.rule
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-install.rule
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-mkdir.rule
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-download.rule
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-update.rule
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-patch.rule
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-configure.rule
+/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/MbedTLS/build/src/MbedTLS-depends-stamp/MbedTLS-depends-build.rule

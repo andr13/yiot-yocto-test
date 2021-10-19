@@ -1,0 +1,4 @@
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/CMakeFiles/edit_cache.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/CMakeFiles/sdbus-depends.dir
+/tmp/tmp.DDugRronBx/cmake-build-rpi/depends/sdbus/build/CMakeFiles/sdbus-depends-build.dir

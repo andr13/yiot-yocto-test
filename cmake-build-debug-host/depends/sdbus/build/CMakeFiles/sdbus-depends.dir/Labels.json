@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/CMakeFiles/sdbus-depends"
+		},
+		{
+			"file" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/CMakeFiles/sdbus-depends.rule"
+		},
+		{
+			"file" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/CMakeFiles/sdbus-depends-complete.rule"
+		},
+		{
+			"file" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-install.rule"
+		},
+		{
+			"file" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-mkdir.rule"
+		},
+		{
+			"file" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-download.rule"
+		},
+		{
+			"file" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-update.rule"
+		},
+		{
+			"file" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-patch.rule"
+		},
+		{
+			"file" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-configure.rule"
+		},
+		{
+			"file" : "/home/roman/Work/yiot/YIoT/cmake-build-debug-host/depends/sdbus/build/src/sdbus-depends-stamp/sdbus-depends-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdbus-depends"
+		],
+		"name" : "sdbus-depends"
+	}
+}
